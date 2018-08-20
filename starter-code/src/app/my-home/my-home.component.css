@@ -1,0 +1,32 @@
+.movies-container {
+    display: flex;
+    min-width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4b3c;
+
+}
+
+a {
+    color: #4d4b3c;
+    text-decoration: none;    
+}
+a:hover {
+    color: green;
+}
+
+img {
+    width: 200px;
+    height: 300px
+}
